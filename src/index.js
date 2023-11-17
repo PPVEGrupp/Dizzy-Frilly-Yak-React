@@ -9,8 +9,9 @@ import {
 
 import './style.css'
 import Meist from './views/meist'
-import Home from './views/home'
+import Esileht from './views/esileht'
 import Kontakt from './views/kontakt'
+import Teenused from './views/teenused'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -18,8 +19,9 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Meist} exact path="/meist" />
-        <Route component={Home} exact path="/" />
+        <Route component={Esileht} exact path="/" />
         <Route component={Kontakt} exact path="/kontakt" />
+        <Route component={Teenused} exact path="/teenused" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
