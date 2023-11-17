@@ -51,6 +51,7 @@
 .home-about-us {
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-about-us:hover {
   color: #3d6e70ff;
@@ -58,6 +59,7 @@
 .home-contact {
   transition: 0.3s;
   margin-left: var(--dl-space-space-twounits);
+  text-decoration: none;
 }
 .home-contact:hover {
   color: #3d6e70ff;
@@ -333,6 +335,7 @@
   .home-navbar-interactive {
     width: 90%;
     padding: var(--dl-space-space-unit);
+    padding-left: 16px;
   }
   .home-mobile-menu {
     padding: 16px;

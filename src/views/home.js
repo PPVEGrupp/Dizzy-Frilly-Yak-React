@@ -16,11 +16,15 @@ const Home = (props) => {
         <header data-thq="thq-navbar" className="home-navbar-interactive">
           <div data-thq="thq-navbar-nav" className="home-desktop-menu">
             <nav className="home-links">
-              <Link to="/tra" className="home-main">
+              <Link to="/" className="home-main">
                 Esileht
               </Link>
-              <span className="home-about-us">Meist</span>
-              <span className="home-contact">Kontakt</span>
+              <Link to="/meist" className="home-about-us">
+                Meist
+              </Link>
+              <Link to="/kontakt" className="home-contact">
+                Kontakt
+              </Link>
             </nav>
           </div>
           <div data-thq="thq-burger-menu" className="home-burger-menu">
