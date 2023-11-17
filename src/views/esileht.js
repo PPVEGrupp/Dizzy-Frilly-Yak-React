@@ -9,8 +9,16 @@ const Esileht = (props) => {
   return (
     <div className="esileht-container">
       <Helmet>
-        <title>Dizzy Frilly Yak</title>
-        <meta property="og:title" content="Dizzy Frilly Yak" />
+        <title>3D Printimine</title>
+        <meta
+          name="description"
+          content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
+        />
+        <meta property="og:title" content="3D Printimine" />
+        <meta
+          property="og:description"
+          content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
+        />
       </Helmet>
       <div className="esileht-header">
         <img
@@ -107,6 +115,10 @@ const Esileht = (props) => {
               </button>
             </div>
           </div>
+          <iframe
+            src="https://youtu.be/xpHFnRgAUbE"
+            className="esileht-iframe"
+          ></iframe>
         </div>
       </div>
     </div>

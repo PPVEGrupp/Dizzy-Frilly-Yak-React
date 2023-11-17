@@ -287,6 +287,10 @@
 .esileht-hero-button2:hover {
   border-color: var(--dl-color-gray-white);
 }
+.esileht-iframe {
+  width: 320px;
+  height: 200px;
+}
 @media(max-width: 991px) {
   .esileht-hero1 {
     flex-direction: column;

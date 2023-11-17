@@ -8,8 +8,16 @@ const Teenused = (props) => {
   return (
     <div className="teenused-container">
       <Helmet>
-        <title>Teenused - Dizzy Frilly Yak</title>
-        <meta property="og:title" content="Teenused - Dizzy Frilly Yak" />
+        <title>Teenused - 3D Printimine</title>
+        <meta
+          name="description"
+          content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
+        />
+        <meta property="og:title" content="Teenused - 3D Printimine" />
+        <meta
+          property="og:description"
+          content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
+        />
       </Helmet>
     </div>
   )
