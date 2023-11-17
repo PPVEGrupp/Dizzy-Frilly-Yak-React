@@ -1,0 +1,11 @@
+.component1-container {
+  display: flex;
+  position: relative;
+}
+.component1-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.component1-root-class-name {
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}

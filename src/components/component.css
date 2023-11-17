@@ -1,0 +1,23 @@
+.app-component-container {
+  flex: 0 0 auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media(max-width: 479px) {
+  .app-component-container {
+    width: 218px;
+    height: auto;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .app-component-root-class-name {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+}

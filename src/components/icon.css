@@ -1,0 +1,11 @@
+.icon-container {
+  display: flex;
+  position: relative;
+}
+.icon-icon {
+  width: 2rem;
+  height: 2rem;
+}
+.icon-root-class-name {
+  margin-right: var(--dl-space-space-oneandhalfunits);
+}

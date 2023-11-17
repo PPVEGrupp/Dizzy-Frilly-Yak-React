@@ -10,8 +10,8 @@ import {
 import './style.css'
 import Meist from './views/meist'
 import Esileht from './views/esileht'
-import Kontakt from './views/kontakt'
 import Teenused from './views/teenused'
+import Kontakt from './views/kontakt'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -20,8 +20,8 @@ const App = () => {
       <Switch>
         <Route component={Meist} exact path="/meist" />
         <Route component={Esileht} exact path="/" />
-        <Route component={Kontakt} exact path="/kontakt" />
         <Route component={Teenused} exact path="/teenused" />
+        <Route component={Kontakt} exact path="/kontakt" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
