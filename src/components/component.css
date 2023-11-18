@@ -6,16 +6,80 @@
   flex-direction: column;
   justify-content: center;
 }
+.app-component-feature-card {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-component-container1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-component-text {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.app-component-feature-card1 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  position: relative;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.app-component-container2 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.app-component-text2 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+}
 
+
+@media(max-width: 767px) {
+  .app-component-feature-card {
+    flex-direction: row;
+  }
+  .app-component-container1 {
+    flex-direction: column;
+  }
+  .app-component-feature-card1 {
+    flex-direction: row;
+  }
+  .app-component-container2 {
+    flex-direction: column;
+  }
+}
 @media(max-width: 479px) {
   .app-component-container {
-    width: 218px;
+    width: fit-content;
     height: auto;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
   }
+  .app-component-container1 {
+    flex-direction: column;
+  }
+  .app-component-container2 {
+    flex-direction: column;
+  }
   .app-component-root-class-name {
+    margin-top: var(--dl-space-space-oneandhalfunits);
+    margin-left: var(--dl-space-space-oneandhalfunits);
+    margin-right: var(--dl-space-space-oneandhalfunits);
+  }
+  .app-component-root-class-name1 {
     margin-top: var(--dl-space-space-oneandhalfunits);
     margin-left: var(--dl-space-space-oneandhalfunits);
     margin-right: var(--dl-space-space-oneandhalfunits);

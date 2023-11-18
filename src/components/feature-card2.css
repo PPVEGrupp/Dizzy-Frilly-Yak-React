@@ -18,12 +18,6 @@
   margin-bottom: var(--dl-space-space-unit);
 }
 
-.feature-card2-root-class-name1 {
-  top: 0px;
-  right: 0px;
-  position: 0px;
-  margin-bottom: var(--dl-space-space-oneandhalfunits);
-}
 @media(max-width: 767px) {
   .feature-card2-feature-card {
     flex-direction: row;
@@ -35,10 +29,5 @@
 @media(max-width: 479px) {
   .feature-card2-container {
     flex-direction: column;
-  }
-  .feature-card2-root-class-name1 {
-    width: auto;
-    margin-left: var(--dl-space-space-oneandhalfunits);
-    margin-right: var(--dl-space-space-oneandhalfunits);
   }
 }

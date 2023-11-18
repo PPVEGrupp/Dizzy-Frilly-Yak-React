@@ -22,13 +22,13 @@ const KysiPakkumist = (props) => {
 }
 
 KysiPakkumist.defaultProps = {
-  text: 'Text',
   textinput_placeholder: 'placeholder',
+  text: 'Text',
 }
 
 KysiPakkumist.propTypes = {
-  text: PropTypes.string,
   textinput_placeholder: PropTypes.string,
+  text: PropTypes.string,
 }
 
 export default KysiPakkumist

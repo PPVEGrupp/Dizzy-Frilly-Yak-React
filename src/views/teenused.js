@@ -3,8 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
-import Container1 from '../components/container1'
-import KysiPakkumist from '../components/kysi-pakkumist'
+import AppComponent from '../components/component'
 import './teenused.css'
 
 const Teenused = (props) => {
@@ -102,9 +101,28 @@ const Teenused = (props) => {
           <span>PPVE Grupp pakub kõrgekvaliteedilisi inseneriteenuseid</span>
           <br></br>
         </h1>
-        <Container1></Container1>
+        <AppComponent rootClassName="app-component-root-class-name1"></AppComponent>
       </div>
-      <KysiPakkumist></KysiPakkumist>
+      <div className="teenused-kysi-pakkumist">
+        <form className="teenused-form">
+          <div className="teenused-container3">
+            <span className="teenused-text3">Text</span>
+            <input
+              type="text"
+              placeholder="placeholder"
+              className="input teenused-textinput"
+            />
+          </div>
+          <div className="teenused-container4">
+            <span className="teenused-text4">Text</span>
+            <input
+              type="text"
+              placeholder="placeholder"
+              className="input teenused-textinput1"
+            />
+          </div>
+        </form>
+      </div>
     </div>
   )
 }
