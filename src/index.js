@@ -12,6 +12,7 @@ import Meist from './views/meist'
 import Esileht from './views/esileht'
 import Teenused from './views/teenused'
 import Kontakt from './views/kontakt'
+import Test from './views/test'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
         <Route component={Esileht} exact path="/" />
         <Route component={Teenused} exact path="/teenused" />
         <Route component={Kontakt} exact path="/kontakt" />
+        <Route component={Test} exact path="/test" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

@@ -22,11 +22,6 @@ const Teenused = (props) => {
         />
       </Helmet>
       <div className="teenused-header">
-        <img
-          alt="image"
-          src="https://play.teleporthq.io/static/svg/default-img.svg"
-          className="teenused-image"
-        />
         <header data-thq="thq-navbar" className="teenused-navbar-interactive">
           <div className="teenused-container1">
             <div
@@ -34,17 +29,23 @@ const Teenused = (props) => {
               className="teenused-desktop-menu"
             ></div>
           </div>
-          <nav className="teenused-links">
-            <Link to="/" className="teenused-main">
-              Esileht
-            </Link>
-            <Link to="/meist" className="teenused-about-us">
-              Meist
-            </Link>
-            <Link to="/kontakt" className="teenused-contact">
-              Kontakt
-            </Link>
-          </nav>
+          <div className="teenused-container2">
+            <nav className="teenused-links">
+              <Link to="/" className="teenused-main">
+                Esileht
+              </Link>
+              <Link to="/teenused" className="teenused-main1">
+                <span className="teenused-text">Teenused</span>
+                <br></br>
+              </Link>
+              <Link to="/meist" className="teenused-about-us">
+                Meist
+              </Link>
+              <Link to="/kontakt" className="teenused-contact">
+                Kontakt
+              </Link>
+            </nav>
+          </div>
           <div data-thq="thq-burger-menu" className="teenused-burger-menu">
             <svg viewBox="0 0 1024 1024" className="teenused-icon">
               <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
@@ -95,34 +96,21 @@ const Teenused = (props) => {
           </div>
         </header>
       </div>
-      <div className="teenused-container2"></div>
+      <div className="teenused-container3"></div>
       <div className="teenused-features">
-        <h1 className="teenused-text">
+        <h1 className="teenused-text2">
           <span>PPVE Grupp pakub kõrgekvaliteedilisi inseneriteenuseid</span>
           <br></br>
         </h1>
         <AppComponent rootClassName="app-component-root-class-name1"></AppComponent>
       </div>
-      <div className="teenused-kysi-pakkumist">
-        <form className="teenused-form">
-          <div className="teenused-container3">
-            <span className="teenused-text3">Text</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              className="input teenused-textinput"
-            />
-          </div>
-          <div className="teenused-container4">
-            <span className="teenused-text4">Text</span>
-            <input
-              type="text"
-              placeholder="placeholder"
-              className="input teenused-textinput1"
-            />
-          </div>
-        </form>
+      <div className="teenused-tulp">
+        <span className="teenused-text5">Text</span>
+        <input type="text" placeholder="placeholder" className="input" />
+        <span>Text</span>
+        <input type="text" placeholder="placeholder" className="input" />
       </div>
+      <form className="teenused-form-kysi-pakkumist"></form>
     </div>
   )
 }
