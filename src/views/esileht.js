@@ -35,8 +35,12 @@ const Esileht = (props) => {
                 VÕTA ÜHENDUST
               </button>
             </div>
+            <img
+              src="/untitled-300h.png"
+              alt="image"
+              className="esileht-image"
+            />
           </div>
-          <img src="/untitled-300h.png" alt="image" className="esileht-image" />
         </div>
       </div>
     </div>
