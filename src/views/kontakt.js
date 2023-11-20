@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import UUUUusHeader from '../components/uuu-uus-header'
 import './kontakt.css'
 
 const Kontakt = (props) => {
@@ -20,7 +20,7 @@ const Kontakt = (props) => {
           content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name1"></Header>
+      <UUUUusHeader rootClassName="uuu-uus-header-root-class-name1"></UUUUusHeader>
     </div>
   )
 }

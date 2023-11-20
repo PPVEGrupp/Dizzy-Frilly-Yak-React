@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import UUUUusHeader from '../components/uuu-uus-header'
 import AppComponent from '../components/component'
 import './teenused.css'
 
@@ -21,7 +21,7 @@ const Teenused = (props) => {
           content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name3"></Header>
+      <UUUUusHeader rootClassName="uuu-uus-header-root-class-name3"></UUUUusHeader>
       <div className="teenused-features">
         <h1 className="teenused-text">
           <span>PPVE Grupp pakub kõrgekvaliteedilisi inseneriteenuseid</span>

@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Helmet } from 'react-helmet'
 
-import Header from '../components/header'
+import UUUUusHeader from '../components/uuu-uus-header'
 import './esileht.css'
 
 const Esileht = (props) => {
@@ -20,29 +20,23 @@ const Esileht = (props) => {
           content="3D printimine ja disain kvaliteetsete ja kiirete tulemustega"
         />
       </Helmet>
-      <Header rootClassName="header-root-class-name"></Header>
+      <UUUUusHeader rootClassName="uuu-uus-header-root-class-name"></UUUUusHeader>
       <div className="esileht-hero">
         <div className="esileht-hero1">
           <div className="esileht-container1">
             <h1 className="esileht-hero-heading heading1">
-              Generate a Professional Website for Your 3D Printing Business
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit
             </h1>
             <span className="esileht-hero-sub-heading">
-              Create an Impressive Online Presence
+              Sed ut perspiciatis unde omnis
             </span>
             <div className="esileht-btn-group">
               <button className="esileht-hero-button1 button">
-                Get Started
-              </button>
-              <button className="esileht-hero-button2 button">
-                Learn More →
+                VÕTA ÜHENDUST
               </button>
             </div>
           </div>
-          <iframe
-            src="https://youtu.be/xpHFnRgAUbE"
-            className="esileht-iframe"
-          ></iframe>
+          <img src="/untitled-300h.png" alt="image" className="esileht-image" />
         </div>
       </div>
     </div>

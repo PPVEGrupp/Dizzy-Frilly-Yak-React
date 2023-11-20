@@ -5,6 +5,7 @@
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
+  background-color: #000000;
 }
 .esileht-hero {
   flex: 0 0 auto;
@@ -37,10 +38,11 @@
 }
 .esileht-hero-heading {
   color: var(--dl-color-gray-white);
+  font-size: 62;
   max-width: 800px;
   text-align: center;
-  font-family: "Raleway";
-  line-height: 1.6;
+  font-family: "Inter";
+  line-height: 1.35;
 }
 .esileht-hero-sub-heading {
   color: var(--dl-color-gray-white);
@@ -57,11 +59,12 @@
 .esileht-hero-button1 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-weight: bold;
   padding-top: 1.5rem;
-  border-color: var(--dl-color-primary1-gray);
-  border-width: 0px;
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
   padding-left: 3rem;
   border-radius: 45px;
   padding-right: 3rem;
@@ -73,36 +76,26 @@
   border-color: rgba(41, 20, 119, 0.9);
   background-color: rgba(41, 20, 119, 0.9);
 }
-.esileht-hero-button2 {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  font-weight: bold;
-  padding-top: var(--dl-space-space-unit);
-  border-color: transparent;
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  padding-bottom: var(--dl-space-space-unit);
-  background-color: transparent;
-}
-.esileht-hero-button2:hover {
-  border-color: var(--dl-color-gray-white);
-}
-.esileht-iframe {
-  width: 320px;
-  height: 200px;
+.esileht-image {
+  width: 453px;
+  height: 230px;
+  margin-top: var(--dl-space-space-twounits);
+  object-fit: cover;
 }
 @media(max-width: 991px) {
   .esileht-hero1 {
     flex-direction: column;
   }
   .esileht-container1 {
+    width: 715px;
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
   .esileht-hero-heading {
-    text-align: center;
+    font-size: 54;
+    line-height: 1.2;
   }
   .esileht-hero-sub-heading {
     text-align: center;
@@ -115,15 +108,18 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
+  .esileht-container1 {
+    width: 619px;
+  }
+  .esileht-hero-heading {
+    font-size: 46;
+  }
   .esileht-hero-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .esileht-container {
-    background-color: #000000;
-  }
   .esileht-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
@@ -131,13 +127,17 @@
     padding-bottom: var(--dl-space-space-twounits);
   }
   .esileht-container1 {
+    width: 451px;
     margin-bottom: var(--dl-space-space-unit);
+  }
+  .esileht-hero-heading {
+    font-size: 34;
+    line-height: 1.1;
+  }
+  .esileht-hero-sub-heading {
+    color: var(--dl-color-gray-white);
   }
   .esileht-btn-group {
     flex-direction: column;
-  }
-  .esileht-hero-button2 {
-    margin-top: var(--dl-space-space-unit);
-    margin-left: 0px;
   }
 }
