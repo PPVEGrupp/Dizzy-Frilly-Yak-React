@@ -6,205 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.esileht-header {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  flex-direction: row;
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: flex-start;
-  background-color: var(--dl-color-primary1-black);
-}
-.esileht-image {
-  width: 121px;
-  height: 75px;
-  object-fit: cover;
-}
-.esileht-navbar-interactive {
-  width: 90%;
-  display: flex;
-  position: sticky;
-  max-width: var(--dl-size-size-maxwidth);
-  align-items: center;
-  padding-top: var(--dl-space-space-oneandhalfunits);
-  padding-left: var(--dl-space-space-threeunits);
-  border-radius: 50px;
-  padding-right: var(--dl-space-space-threeunits);
-  padding-bottom: var(--dl-space-space-oneandhalfunits);
-  justify-content: space-between;
-  background-color: var(--dl-color-primary-700);
-}
-.esileht-container1 {
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
-  display: flex;
-  align-items: space-between;
-  flex-direction: column;
-}
-.esileht-desktop-menu {
-  flex: 1;
-  display: flex;
-  justify-content: space-between;
-}
-.esileht-burger-menu {
-  display: none;
-}
-.esileht-icon {
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.esileht-links {
-  flex: 1;
-  display: flex;
-  align-items: center;
-  flex-direction: row;
-  justify-content: center;
-}
-.esileht-main {
-  transition: 0.3s;
-  text-decoration: none;
-}
-.esileht-main:hover {
-  color: #3d6e70ff;
-}
-.esileht-main1 {
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.esileht-main1:hover {
-  color: #3d6e70ff;
-}
-.esileht-about-us {
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.esileht-about-us:hover {
-  color: #3d6e70ff;
-}
-.esileht-contact {
-  transition: 0.3s;
-  margin-left: var(--dl-space-space-twounits);
-  text-decoration: none;
-}
-.esileht-contact:hover {
-  color: #3d6e70ff;
-}
-.esileht-mobile-menu {
-  top: 0px;
-  left: 0px;
-  width: 100%;
-  height: 100vh;
-  display: none;
-  padding: 32px;
-  z-index: 100;
-  position: absolute;
-  border-radius: 50px;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: var(--dl-color-gray-white);
-}
-.esileht-nav {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.esileht-top {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-threeunits);
-  justify-content: space-between;
-}
-.esileht-logo {
-  font-size: 2em;
-  font-weight: bold;
-}
-.esileht-close-menu {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.esileht-icon02 {
-  fill: var(--dl-color-gray-900);
-  width: var(--dl-size-size-xsmall);
-  cursor: pointer;
-  height: var(--dl-size-size-xsmall);
-}
-.esileht-links1 {
-  flex: 0 0 auto;
-  display: flex;
-  align-self: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.esileht-nav1 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.esileht-nav2 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.esileht-nav3 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.esileht-nav4 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.esileht-nav5 {
-  color: var(--dl-color-gray-black);
-  margin-bottom: var(--dl-space-space-unit);
-}
-.esileht-buttons {
-  display: flex;
-  margin-top: var(--dl-space-space-unit);
-  align-items: center;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.esileht-login {
-  border-color: var(--dl-color-primary1-gray);
-  border-width: 1px;
-  margin-right: var(--dl-space-space-twounits);
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-}
-.esileht-register {
-  color: var(--dl-color-gray-white);
-  transition: 0.3s;
-  border-color: var(--dl-color-primary1-gray);
-  border-width: 1px;
-  padding-left: 1.5rem;
-  border-radius: 30px;
-  padding-right: 1.5rem;
-  background-color: var(--dl-color-primary1-gray);
-}
-.esileht-register:hover {
-  border-color: #849492ff;
-  background-color: #849492ff;
-}
-.esileht-icon04 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.esileht-icon06 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-  margin-right: var(--dl-space-space-twounits);
-}
-.esileht-icon08 {
-  width: var(--dl-size-size-xsmall);
-  height: var(--dl-size-size-xsmall);
-}
 .esileht-hero {
   flex: 0 0 auto;
   width: 100%;
@@ -212,7 +13,6 @@
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  background-color: var(--dl-color-primary1-black);
 }
 .esileht-hero1 {
   width: 100%;
@@ -228,7 +28,7 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.esileht-container2 {
+.esileht-container1 {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
@@ -295,7 +95,7 @@
   .esileht-hero1 {
     flex-direction: column;
   }
-  .esileht-container2 {
+  .esileht-container1 {
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
@@ -311,43 +111,6 @@
   }
 }
 @media(max-width: 767px) {
-  .esileht-navbar-interactive {
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-  }
-  .esileht-desktop-menu {
-    display: none;
-  }
-  .esileht-burger-menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .esileht-mobile-menu {
-    padding-top: var(--dl-space-space-oneandhalfunits);
-    padding-left: var(--dl-space-space-twounits);
-    padding-right: var(--dl-space-space-twounits);
-    padding-bottom: var(--dl-space-space-oneandhalfunits);
-  }
-  .esileht-nav1 {
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .esileht-nav2 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .esileht-nav3 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .esileht-nav4 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
-  .esileht-nav5 {
-    margin-left: 0;
-    margin-bottom: var(--dl-space-space-unit);
-  }
   .esileht-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
@@ -358,19 +121,8 @@
   }
 }
 @media(max-width: 479px) {
-  .esileht-navbar-interactive {
-    width: 90%;
-    padding: var(--dl-space-space-unit);
-    padding-left: 16px;
-  }
-  .esileht-mobile-menu {
-    padding: 16px;
-  }
-  .esileht-logo {
-    font-size: 1.5em;
-  }
-  .esileht-icon02 {
-    fill: var(--dl-color-gray-900);
+  .esileht-container {
+    background-color: #000000;
   }
   .esileht-hero1 {
     padding-top: var(--dl-space-space-twounits);
@@ -378,7 +130,7 @@
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .esileht-container2 {
+  .esileht-container1 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .esileht-btn-group {
