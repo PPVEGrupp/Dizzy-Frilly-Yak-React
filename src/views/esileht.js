@@ -36,7 +36,7 @@ const Esileht = (props) => {
               </button>
             </div>
             <img
-              src="/untitled-300h.png"
+              src="/leonardo-300h.png"
               alt="image"
               className="esileht-image"
             />
