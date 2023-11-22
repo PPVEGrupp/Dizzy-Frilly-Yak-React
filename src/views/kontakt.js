@@ -21,6 +21,18 @@ const Kontakt = (props) => {
         />
       </Helmet>
       <UUUUusHeader rootClassName="uuu-uus-header-root-class-name1"></UUUUusHeader>
+      <div className="kontakt-container1">
+        <span className="kontakt-text">
+          <span>PPVE Grupp OÜ</span>
+          <br></br>
+        </span>
+        <span className="kontakt-text3">
+          <span>E-mail: 3d@printimine.eu</span>
+          <br></br>
+          <span>Reg. kood: 16862123</span>
+          <br></br>
+        </span>
+      </div>
     </div>
   )
 }

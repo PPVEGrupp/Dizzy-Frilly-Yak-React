@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import EsilehtBackup from './views/esileht-backup'
 import Meist from './views/meist'
 import Esileht from './views/esileht'
 import Teenused from './views/teenused'
@@ -19,6 +20,7 @@ const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={EsilehtBackup} exact path="/esileht-backup" />
         <Route component={Meist} exact path="/meist" />
         <Route component={Esileht} exact path="/" />
         <Route component={Teenused} exact path="/teenused" />

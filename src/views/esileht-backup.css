@@ -1,14 +1,13 @@
-.esileht-container {
+.esileht-backup-container {
   width: 100%;
   display: flex;
   overflow: auto;
   min-height: 100vh;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
-  background-image: url("/leonardo-1500w.png");
+  background-color: #000000;
 }
-.esileht-hero {
+.esileht-backup-hero {
   flex: 0 0 auto;
   width: 100%;
   height: 100%;
@@ -16,7 +15,7 @@
   align-items: flex-start;
   justify-content: center;
 }
-.esileht-hero1 {
+.esileht-backup-hero1 {
   width: 100%;
   height: auto;
   display: flex;
@@ -30,14 +29,14 @@
   padding-bottom: var(--dl-space-space-sixunits);
   justify-content: center;
 }
-.esileht-container1 {
+.esileht-backup-container1 {
   gap: var(--dl-space-space-twounits);
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
 }
-.esileht-hero-heading {
+.esileht-backup-hero-heading {
   color: var(--dl-color-gray-white);
   font-size: 62px;
   max-width: 800px;
@@ -45,19 +44,19 @@
   font-family: "Inter";
   line-height: 1.35;
 }
-.esileht-hero-sub-heading {
+.esileht-backup-hero-sub-heading {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   text-align: center;
   line-height: 1.6;
 }
-.esileht-btn-group {
+.esileht-backup-btn-group {
   gap: var(--dl-space-space-oneandhalfunits);
   display: flex;
   align-items: center;
   flex-direction: row;
 }
-.esileht-hero-button1 {
+.esileht-backup-hero-button1 {
   color: var(--dl-color-gray-white);
   font-size: 18px;
   margin-top: var(--dl-space-space-halfunit);
@@ -72,73 +71,73 @@
   padding-bottom: 1.5rem;
   background-color: var(--dl-color-primary1-gray);
 }
-.esileht-hero-button1:hover {
+.esileht-backup-hero-button1:hover {
   color: var(--dl-color-gray-white);
   border-color: rgba(41, 20, 119, 0.9);
   background-color: rgba(41, 20, 119, 0.9);
 }
-.esileht-image {
+.esileht-backup-image {
   width: 453px;
   height: 230px;
   margin-top: var(--dl-space-space-twounits);
   object-fit: cover;
 }
 @media(max-width: 991px) {
-  .esileht-hero1 {
+  .esileht-backup-hero1 {
     flex-direction: column;
   }
-  .esileht-container1 {
+  .esileht-backup-container1 {
     width: 715px;
     align-items: center;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-twounits);
     padding-right: 0px;
   }
-  .esileht-hero-heading {
+  .esileht-backup-hero-heading {
     font-size: 54;
     line-height: 1.2;
   }
-  .esileht-hero-sub-heading {
+  .esileht-backup-hero-sub-heading {
     text-align: center;
     padding-left: var(--dl-space-space-threeunits);
     padding-right: var(--dl-space-space-threeunits);
   }
 }
 @media(max-width: 767px) {
-  .esileht-hero1 {
+  .esileht-backup-hero1 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .esileht-container1 {
+  .esileht-backup-container1 {
     width: 619px;
   }
-  .esileht-hero-heading {
+  .esileht-backup-hero-heading {
     font-size: 46;
   }
-  .esileht-hero-sub-heading {
+  .esileht-backup-hero-sub-heading {
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
   }
 }
 @media(max-width: 479px) {
-  .esileht-hero1 {
+  .esileht-backup-hero1 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);
     padding-bottom: var(--dl-space-space-twounits);
   }
-  .esileht-container1 {
+  .esileht-backup-container1 {
     width: 451px;
     margin-bottom: var(--dl-space-space-unit);
   }
-  .esileht-hero-heading {
+  .esileht-backup-hero-heading {
     font-size: 34;
     line-height: 1.1;
   }
-  .esileht-hero-sub-heading {
+  .esileht-backup-hero-sub-heading {
     color: var(--dl-color-gray-white);
   }
-  .esileht-btn-group {
+  .esileht-backup-btn-group {
     flex-direction: column;
   }
 }

@@ -30,17 +30,17 @@ const UUUUusHeader = (props) => {
 }
 
 UUUUusHeader.defaultProps = {
-  Main1: 'Esileht',
   About_us1: 'Meist',
-  Contact1: 'Kontakt',
+  Main1: 'Esileht',
   rootClassName: '',
+  Contact1: 'Kontakt',
 }
 
 UUUUusHeader.propTypes = {
-  Main1: PropTypes.string,
   About_us1: PropTypes.string,
-  Contact1: PropTypes.string,
+  Main1: PropTypes.string,
   rootClassName: PropTypes.string,
+  Contact1: PropTypes.string,
 }
 
 export default UUUUusHeader
