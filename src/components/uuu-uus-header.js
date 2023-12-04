@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
 import PropTypes from 'prop-types'
 
@@ -10,19 +9,13 @@ const UUUUusHeader = (props) => {
     <div className={`uuu-uus-header-container ${props.rootClassName} `}>
       <div className="uuu-uus-header-container1">
         <nav className="uuu-uus-header-links">
-          <Link to="/esilehtvana" className="uuu-uus-header-main">
-            {props.Main1}
-          </Link>
-          <Link to="/teenusedvana" className="uuu-uus-header-main1">
+          <span className="uuu-uus-header-main">{props.Main1}</span>
+          <span className="uuu-uus-header-main1">
             <span className="uuu-uus-header-text">Teenused</span>
             <br className=""></br>
-          </Link>
-          <Link to="/meistvana" className="uuu-uus-header-about-us">
-            {props.About_us1}
-          </Link>
-          <Link to="/kontaktvana" className="uuu-uus-header-contact">
-            {props.Contact1}
-          </Link>
+          </span>
+          <span className="uuu-uus-header-about-us">{props.About_us1}</span>
+          <span className="uuu-uus-header-contact">{props.Contact1}</span>
         </nav>
       </div>
     </div>
