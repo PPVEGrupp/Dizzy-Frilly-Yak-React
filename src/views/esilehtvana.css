@@ -1,0 +1,139 @@
+.esilehtvana-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: flex-start;
+  background-image: url('https://lh3.googleusercontent.com/drive-viewer/AK7aPaCR4qim0NVDEk6GBHhUHszxhU9OJ9JZKIrrMfbXF-WGTQeMWkfLpqZCt9rhQOxdBdty2p9X3t2DABqgAekG5JJoadAbWQ=s1600');
+}
+.esilehtvana-hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.esilehtvana-hero1 {
+  width: 100%;
+  height: 834px;
+  display: flex;
+  max-width: var(--dl-size-size-maxwidth);
+  min-height: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-sixunits);
+  padding-left: var(--dl-space-space-threeunits);
+  padding-right: var(--dl-space-space-threeunits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-sixunits);
+  justify-content: center;
+}
+.esilehtvana-container1 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.esilehtvana-hero-heading {
+  color: var(--dl-color-gray-white);
+  font-size: 62px;
+  max-width: 800px;
+  text-align: center;
+  font-family: "Inter";
+  line-height: 1.35;
+}
+.esilehtvana-hero-sub-heading {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  text-align: center;
+  line-height: 1.6;
+}
+.esilehtvana-btn-group {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.esilehtvana-hero-button1 {
+  color: var(--dl-color-gray-white);
+  font-size: 18px;
+  margin-top: var(--dl-space-space-halfunit);
+  transition: 0.3s;
+  font-weight: bold;
+  padding-top: 1.5rem;
+  border-color: var(--dl-color-gray-white);
+  border-width: 1px;
+  padding-left: 3rem;
+  border-radius: 45px;
+  padding-right: 3rem;
+  padding-bottom: 1.5rem;
+  background-color: var(--dl-color-primary1-gray);
+}
+.esilehtvana-hero-button1:hover {
+  color: var(--dl-color-gray-white);
+  border-color: rgba(41, 20, 119, 0.9);
+  background-color: rgba(41, 20, 119, 0.9);
+}
+@media(max-width: 991px) {
+  .esilehtvana-hero1 {
+    flex-direction: column;
+  }
+  .esilehtvana-container1 {
+    width: 715px;
+    align-items: center;
+    margin-right: 0px;
+    margin-bottom: var(--dl-space-space-twounits);
+    padding-right: 0px;
+  }
+  .esilehtvana-hero-heading {
+    font-size: 54;
+    line-height: 1.2;
+  }
+  .esilehtvana-hero-sub-heading {
+    text-align: center;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+  }
+}
+@media(max-width: 767px) {
+  .esilehtvana-hero1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .esilehtvana-container1 {
+    width: 619px;
+  }
+  .esilehtvana-hero-heading {
+    font-size: 46;
+  }
+  .esilehtvana-hero-sub-heading {
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .esilehtvana-hero1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .esilehtvana-container1 {
+    width: 451px;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .esilehtvana-hero-heading {
+    font-size: 34;
+    line-height: 1.1;
+  }
+  .esilehtvana-hero-sub-heading {
+    color: var(--dl-color-gray-white);
+  }
+  .esilehtvana-btn-group {
+    flex-direction: column;
+  }
+}

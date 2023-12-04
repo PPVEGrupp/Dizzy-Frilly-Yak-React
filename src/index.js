@@ -8,24 +8,26 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
-import EsilehtBackup from './views/esileht-backup'
-import Meist from './views/meist'
-import Esileht from './views/esileht'
-import Teenused from './views/teenused'
-import Kontakt from './views/kontakt'
+import EsilehtBackupvana from './views/esileht-backupvana'
+import Meistvana from './views/meistvana'
+import Esilehtvana from './views/esilehtvana'
+import Teenusedvana from './views/teenusedvana'
+import Kontaktvana from './views/kontaktvana'
 import Test from './views/test'
+import Onepager from './views/onepager'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={EsilehtBackup} exact path="/esileht-backup" />
-        <Route component={Meist} exact path="/meist" />
-        <Route component={Esileht} exact path="/" />
-        <Route component={Teenused} exact path="/teenused" />
-        <Route component={Kontakt} exact path="/kontakt" />
+        <Route component={EsilehtBackupvana} exact path="/esileht-backupvana" />
+        <Route component={Meistvana} exact path="/meistvana" />
+        <Route component={Esilehtvana} exact path="/esilehtvana" />
+        <Route component={Teenusedvana} exact path="/teenusedvana" />
+        <Route component={Kontaktvana} exact path="/kontaktvana" />
         <Route component={Test} exact path="/test" />
+        <Route component={Onepager} exact path="/" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>

@@ -10,17 +10,17 @@ const UUUUusHeader = (props) => {
     <div className={`uuu-uus-header-container ${props.rootClassName} `}>
       <div className="uuu-uus-header-container1">
         <nav className="uuu-uus-header-links">
-          <Link to="/" className="uuu-uus-header-main">
+          <Link to="/esilehtvana" className="uuu-uus-header-main">
             {props.Main1}
           </Link>
-          <Link to="/teenused" className="uuu-uus-header-main1">
+          <Link to="/teenusedvana" className="uuu-uus-header-main1">
             <span className="uuu-uus-header-text">Teenused</span>
             <br className=""></br>
           </Link>
-          <Link to="/meist" className="uuu-uus-header-about-us">
+          <Link to="/meistvana" className="uuu-uus-header-about-us">
             {props.About_us1}
           </Link>
-          <Link to="/kontakt" className="uuu-uus-header-contact">
+          <Link to="/kontaktvana" className="uuu-uus-header-contact">
             {props.Contact1}
           </Link>
         </nav>
