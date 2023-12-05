@@ -61,33 +61,32 @@ const Onepager = (props) => {
         </header>
         <div className="onepager-container02">
           <div className="onepager-container03">
+            <span className="onepager-text">
+              <span>Kvaliteetsed ja läbimõeldud</span>
+              <br></br>
+              <span>lahendused.</span>
+            </span>
             <div className="onepager-container04">
-              <span className="onepager-text">
-                <span>Kvaliteetsed ja läbimõeldud</span>
-                <br></br>
-                <span>lahendused.</span>
-              </span>
-              <div className="onepager-container05">
-                <a href="#Teenused" className="onepager-link button">
-                  <span>
-                    <span>Teenused</span>
-                    <br></br>
-                  </span>
-                </a>
-                <a href="#Kontakt" className="onepager-link1 button">
-                  <span>
-                    <span>Kontakt</span>
-                    <br></br>
-                  </span>
-                </a>
-              </div>
+              <a href="#Teenused" className="onepager-link button">
+                <span>
+                  <span>Teenused</span>
+                  <br></br>
+                </span>
+              </a>
+              <a href="#Kontakt" className="onepager-link1 button">
+                <span>
+                  <span>Kontakt</span>
+                  <br></br>
+                </span>
+              </a>
             </div>
-            <img
-              alt="image"
-              src="/3d-printer-300h.png"
-              className="onepager-image2"
-            />
           </div>
+          <img
+            alt="image"
+            src="/3d-printer-300h.png"
+            className="onepager-image2"
+          />
+          <div className="onepager-container05"></div>
         </div>
       </div>
       <div id="Teenused" className="onepager-teenused">
