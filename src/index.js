@@ -9,7 +9,6 @@ import {
 
 import './style.css'
 import Onepager from './views/onepager'
-import Onepagercopy from './views/onepagercopy'
 import NotFound from './views/not-found'
 
 const App = () => {
@@ -17,7 +16,6 @@ const App = () => {
     <Router>
       <Switch>
         <Route component={Onepager} exact path="/" />
-        <Route component={Onepagercopy} exact path="/onepagercopy" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
