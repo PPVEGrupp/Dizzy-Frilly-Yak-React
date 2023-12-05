@@ -43,8 +43,8 @@ const Onepager = (props) => {
               <NavigationLinks2 rootClassName="rootClassName18"></NavigationLinks2>
             </div>
             <img
-              src="/horizontal_black-1500h.png"
               alt="image"
+              src="/horizontal_black-1500h.png"
               className="onepager-image1"
             />
             <div className="onepager-container01">
@@ -92,8 +92,7 @@ const Onepager = (props) => {
       <div id="Teenused" className="onepager-teenused">
         <div className="onepager-container06">
           <span className="onepager-text10">
-            <span>Meie pakutavad teenused</span>
-            <br></br>
+            <span className="onepager-text11">Teenused</span>
             <br></br>
           </span>
           <div className="onepager-printimine">
@@ -103,8 +102,8 @@ const Onepager = (props) => {
               className="onepager-image3"
             />
             <div className="onepager-container07">
-              <span className="onepager-text14">3D Printimine</span>
-              <span className="onepager-text15">
+              <span className="onepager-text13">3D Printimine</span>
+              <span className="onepager-text14">
                 Meie 3D printimise teenus on just nii ja nii hea ja me oskame
                 teha just seda.
               </span>
@@ -117,8 +116,8 @@ const Onepager = (props) => {
               className="onepager-image4"
             />
             <div className="onepager-container08">
-              <span className="onepager-text16">3D Modelleerimine</span>
-              <span className="onepager-text17">
+              <span className="onepager-text15">3D Modelleerimine</span>
+              <span className="onepager-text16">
                 Me oleme selles just nii osavad ja kasutame selleks seda ja seda
                 tarkvara.
               </span>
@@ -131,11 +130,11 @@ const Onepager = (props) => {
               className="onepager-image5"
             />
             <div className="onepager-container09">
-              <span className="onepager-text18">
+              <span className="onepager-text17">
                 <span>Prototüüpimine</span>
                 <br></br>
               </span>
-              <span className="onepager-text21">
+              <span className="onepager-text20">
                 See on selline äge asi mida teeks kogu aeg kui keegi raha
                 maksaks. Varem oleme teinud just seda ja seda.
               </span>
@@ -145,7 +144,7 @@ const Onepager = (props) => {
       </div>
       <div id="Kontakt" className="onepager-kontakt">
         <div className="onepager-container10">
-          <span className="onepager-text22">
+          <span className="onepager-text21">
             <span>Kirjuta meile julgelt</span>
             <br></br>
             <span>ja bla bla bla :)</span>
@@ -224,14 +223,14 @@ const Onepager = (props) => {
         </div>
       </div>
       <div className="onepager-container13">
-        <span className="onepager-text36">
-          <span className="onepager-text37">PPVE Grupp OÜ</span>
-          <br className="onepager-text38"></br>
-          <span className="onepager-text39">Reg. nr. 16862123</span>
+        <span className="onepager-text35">
+          <span className="onepager-text36">PPVE Grupp OÜ</span>
+          <br className="onepager-text37"></br>
+          <span className="onepager-text38">Reg. nr. 16862123</span>
           <span> </span>
           <br></br>
         </span>
-        <span className="onepager-text42">© PPVE Grupp OÜ 2023</span>
+        <span className="onepager-text41">© PPVE Grupp OÜ 2023</span>
       </div>
     </div>
   )
