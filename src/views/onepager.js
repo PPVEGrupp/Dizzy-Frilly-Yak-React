@@ -144,18 +144,15 @@ const Onepager = (props) => {
       </div>
       <div id="Kontakt" className="onepager-kontakt">
         <div className="onepager-container10">
-          <span className="onepager-text21">
-            <span>Kirjuta meile julgelt</span>
-            <br></br>
-            <span>ja bla bla bla :)</span>
-            <br></br>
-            <br></br>
-            <span>3d@printimine.eu</span>
-            <br></br>
-            <br></br>
-            <span>+372 ooga booga</span>
-            <br></br>
-          </span>
+          <div className="onepager-container11">
+            <span className="onepager-text21">
+              <span className="onepager-text22">Kontakt</span>
+              <br></br>
+            </span>
+            <span className="onepager-text24">
+              Küsimuste korral võta julgelt ühendust!
+            </span>
+          </div>
           <form
             action="https://formsubmit.co/9b4bf3647bda31cef96041f47918b94c"
             method="POST"
@@ -163,7 +160,7 @@ const Onepager = (props) => {
             autoComplete="on"
             className="onepager-form"
           >
-            <div className="onepager-container11">
+            <div className="onepager-container12">
               <input
                 type="text"
                 name="eesnimi"
@@ -180,7 +177,7 @@ const Onepager = (props) => {
                 className="onepager-textinput input"
               />
             </div>
-            <div className="onepager-container12">
+            <div className="onepager-container13">
               <input
                 type="email"
                 name="email"
@@ -222,15 +219,19 @@ const Onepager = (props) => {
           </form>
         </div>
       </div>
-      <div className="onepager-container13">
-        <span className="onepager-text35">
-          <span className="onepager-text36">PPVE Grupp OÜ</span>
-          <br className="onepager-text37"></br>
-          <span className="onepager-text38">Reg. nr. 16862123</span>
+      <div className="onepager-container14">
+        <span className="onepager-text28">
+          <span className="onepager-text29">PPVE Grupp OÜ</span>
+          <br className="onepager-text30"></br>
+          <span className="onepager-text31">3d@printimine.eu</span>
+          <br className="onepager-text32"></br>
+          <span className="onepager-text33">+372 1234 5678</span>
+          <br className="onepager-text34"></br>
+          <span className="onepager-text35">Reg. nr. 16862123</span>
           <span> </span>
           <br></br>
         </span>
-        <span className="onepager-text41">© PPVE Grupp OÜ 2023</span>
+        <span className="onepager-text38">© PPVE Grupp OÜ 2023</span>
       </div>
     </div>
   )
