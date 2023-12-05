@@ -131,7 +131,7 @@ const Onepager = (props) => {
             />
             <div className="onepager-container09">
               <span className="onepager-text17">
-                <span>Prototüüpimine</span>
+                <span className="onepager-text18">Prototüüpimine</span>
                 <br></br>
               </span>
               <span className="onepager-text20">

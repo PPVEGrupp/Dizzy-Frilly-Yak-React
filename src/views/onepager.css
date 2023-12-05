@@ -776,6 +776,7 @@
     height: auto;
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
+    justify-content: center;
   }
   .onepager-image3 {
     display: none;
@@ -783,6 +784,7 @@
   .onepager-container07 {
     width: 100%;
     max-width: 400px;
+    align-items: center;
     padding-left: 0px;
   }
   .onepager-text14 {
@@ -792,6 +794,7 @@
     height: auto;
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
+    justify-content: center;
   }
   .onepager-image4 {
     display: none;
@@ -799,6 +802,7 @@
   .onepager-container08 {
     width: 100%;
     max-width: 400px;
+    align-items: center;
     padding-left: 0px;
   }
   .onepager-text16 {
@@ -808,6 +812,7 @@
     height: auto;
     border-color: var(--dl-color-gray-black);
     border-width: 1px;
+    justify-content: center;
   }
   .onepager-image5 {
     display: none;
@@ -815,7 +820,14 @@
   .onepager-container09 {
     width: 100%;
     max-width: 400px;
+    align-items: center;
     padding-left: 0px;
+  }
+  .onepager-text17 {
+    font-size: 36px;
+  }
+  .onepager-text18 {
+    font-size: 32px;
   }
   .onepager-text20 {
     margin-top: var(--dl-space-space-unit);
@@ -855,12 +867,18 @@
     font-size: 28px;
   }
   .onepager-printimine {
-    padding-left: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-twounits);
+  }
+  .onepager-text13 {
+    font-size: 32px;
   }
   .onepager-mudelleerimine {
-    padding-left: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-twounits);
+  }
+  .onepager-text15 {
+    font-size: 32px;
   }
   .onepager-prototpimine {
-    padding-left: var(--dl-space-space-unit);
+    padding: var(--dl-space-space-twounits);
   }
 }
