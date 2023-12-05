@@ -250,9 +250,10 @@
 }
 .onepager-container07 {
   flex: 0 0 auto;
-  width: 560px;
+  width: 100%;
   height: 100%;
   display: flex;
+  max-width: 560px;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
@@ -295,9 +296,10 @@
 }
 .onepager-container08 {
   flex: 0 0 auto;
-  width: 560px;
+  width: 100%;
   height: 100%;
   display: flex;
+  max-width: 560px;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
@@ -338,9 +340,10 @@
 }
 .onepager-container09 {
   flex: 0 0 auto;
-  width: 560px;
+  width: 100%;
   height: 100%;
   display: flex;
+  max-width: 560px;
   align-items: flex-start;
   padding-top: var(--dl-space-space-unit);
   padding-left: var(--dl-space-space-fourunits);
@@ -646,7 +649,8 @@
     height: 200px;
   }
   .onepager-container07 {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-twounits);
   }
@@ -660,7 +664,8 @@
     height: 200px;
   }
   .onepager-container08 {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-twounits);
   }
@@ -671,7 +676,8 @@
     height: 200px;
   }
   .onepager-container09 {
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
     padding-top: 0px;
     padding-left: var(--dl-space-space-twounits);
   }
@@ -766,31 +772,49 @@
   .onepager-text11 {
     font-size: 39px;
   }
+  .onepager-printimine {
+    height: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
   .onepager-image3 {
     display: none;
   }
   .onepager-container07 {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding-left: 0px;
   }
   .onepager-text14 {
     margin-top: var(--dl-space-space-unit);
   }
+  .onepager-mudelleerimine {
+    height: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
   .onepager-image4 {
     display: none;
   }
   .onepager-container08 {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding-left: 0px;
   }
   .onepager-text16 {
     margin-top: var(--dl-space-space-unit);
   }
+  .onepager-prototpimine {
+    height: auto;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+  }
   .onepager-image5 {
     display: none;
   }
   .onepager-container09 {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding-left: 0px;
   }
   .onepager-text20 {
