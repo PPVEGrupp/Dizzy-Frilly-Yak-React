@@ -219,7 +219,7 @@ const Onepager = (props) => {
           </form>
         </div>
       </div>
-      <div className="onepager-container14">
+      <div className="onepager-jalus">
         <span className="onepager-text28">
           <span className="onepager-text29">PPVE Grupp OÜ</span>
           <br className="onepager-text30"></br>

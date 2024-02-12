@@ -555,7 +555,7 @@
   box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.6);
   background-color: #a5de3c;
 }
-.onepager-container14 {
+.onepager-jalus {
   flex: 0 0 auto;
   width: 100%;
   height: auto;
@@ -679,10 +679,10 @@
     height: 220px;
   }
   .onepager-text10 {
-    font-size: 48px;
+    font-size: 39px;
   }
   .onepager-text11 {
-    font-size: 48px;
+    font-size: 40px;
   }
   .onepager-printimine {
     height: 200px;
@@ -823,7 +823,7 @@
     font-size: 39px;
   }
   .onepager-text11 {
-    font-size: 39px;
+    font-size: 40px;
   }
   .onepager-printimine {
     height: auto;
@@ -927,7 +927,7 @@
     font-size: 28px;
   }
   .onepager-text11 {
-    font-size: 28px;
+    font-size: 40px;
   }
   .onepager-printimine {
     padding: var(--dl-space-space-twounits);

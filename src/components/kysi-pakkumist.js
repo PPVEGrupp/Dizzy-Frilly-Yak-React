@@ -12,7 +12,7 @@ const KysiPakkumist = (props) => {
           <span className="kysi-pakkumist-text">{props.text}</span>
           <input
             type="text"
-            placeholder={props.textinput_placeholder}
+            placeholder={props.textinputPlaceholder}
             className="input"
           />
         </div>
@@ -22,12 +22,12 @@ const KysiPakkumist = (props) => {
 }
 
 KysiPakkumist.defaultProps = {
-  textinput_placeholder: 'placeholder',
+  textinputPlaceholder: 'placeholder',
   text: 'Text',
 }
 
 KysiPakkumist.propTypes = {
-  textinput_placeholder: PropTypes.string,
+  textinputPlaceholder: PropTypes.string,
   text: PropTypes.string,
 }
 
